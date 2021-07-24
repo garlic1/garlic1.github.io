@@ -16,26 +16,51 @@
             text-align: center;
             background-color:dimgray;
         }
-        img{
-            width: 150px;
-            padding-top: 30px;
-        }
+
         h1{
             color:whitesmoke;
         }
+
+        .logo-sociais{
+            max-height: 50px;
+            padding: 10px;
+            filter:grayscale(1) invert(1) brightness(150%);
+        }
+
+        .logo-site{
+            max-height:50px;
+            padding-top: 50px;
+        }
+
+        .div-sociais{           
+            padding-top: 15px;             
+            display: flex;
+            justify-content: center;
+        }        
     </style>
 </head>
 <body>
     <header>
         <h1>Olá!</h1>
     </header>
-    <div>
-        <a href="https://www.instagram.com/ide_jr/">Instagram da IDE</a>
+    
+    <div class="div-sociais">
+        <a href="https://www.instagram.com/ide_jr/">
+            <img class="logo-sociais" src="./images/instagram-logo.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/idejr/">
+            <img class="logo-sociais" src="./images/facebook-logo.png" alt="Facebook">        
+        </a>
+        <a href="https://www.linkedin.com/company/empresa-júnior-ide/">
+            <img class="logo-sociais" src="./images/linkedin-logo.png" alt="Linkedin">
+        </a>
     </div>
+
     <footer>
         <a href="https://www.idejr.com.br">
-            <img src="https://www.idejr.com.br/static/logo_branco-5b4e8637a4e0cbe760e576d3b0e99049.png" alt="Site da IDE">
+            <img class="logo-site" src="https://www.idejr.com.br/static/logo_branco-5b4e8637a4e0cbe760e576d3b0e99049.png" alt="Site da IDE">
         </a>
+
     </footer>
 </body>
 </html>
